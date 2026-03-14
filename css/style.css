@@ -3,14 +3,48 @@
     padding: 0;
 }
 
-/* ------------------navber part start---------------- */
-.navbar {
-    background: transparent !important;
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+
 }
 
-.nav-link {
+p {
     font-size: 18px;
-    color: red;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+
+    color: #726E9E;
+
+}
+
+.button a {
+    background: #1BBF00;
+    color: #EFF4FA;
+    font-size: 18px;
+    padding: 14px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid white;
+    transition: .4s;
+}
+
+.button a:hover {
+    background: transparent;
+}
+
+/* ------------------navber part start---------------- */
+.navbar {
+    background: rgba(22, 12, 109, 0.9) !important;
+    padding: 20px 0;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 18px;
+    color: #EFF4FA;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
     padding-right: 42px !important;
@@ -20,13 +54,146 @@
 
 /* ------------------navber part end---------------- */
 /* ------------------banner part start---------------- */
-/* .banner-image {
+.banner-image {
     background-image: url('/image/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 960px;
-    position: relative;
-}  */
+
+}
+
+.banner-over {
+    background: rgba(107, 98, 197, 0.9);
+    width: 100%;
+    height: 850px;
+    padding-top: 146px;
+    padding-bottom: 254px;
+}
+
+.banner-over h1 {
+    color: #FAFAFE;
+    font-size: 84px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    width: 1060px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-over p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #cbcbd3;
+    width: 715px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.banner-over .button2 {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    padding-top: 40px;
+}
+
+.banner-over .button2 .button3 a {
+    background: transparent;
+}
+
+.banner-over .button2 .button3 a:hover {
+    background: #1BBF00;
+}
 
 /* ------------------banner part end---------------- */
+/* ------------------overview part start---------------- */
+.overview {
+    background: #EDE6F7;
+}
+
+.overview .box {
+    column-gap: 30px;
+    justify-content: end;
+    padding-bottom: 100px;
+}
+
+.overview .card-1 {
+    width: 270px;
+    height: 272px;
+    background: #C4C4C4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.overview .card-2 {
+    width: 200px;
+    height: 350px;
+    background: #C4C4C4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.overview .card-3 {
+    width: 340px;
+    height: 295px;
+    background: #C4C4C4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.overview .card-4 {
+    width: 270px;
+    height: 370px;
+    background: #C4C4C4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.overview .row {
+    padding-bottom: 100px;
+}
+
+.overview .col-lg-3 {
+    border-right: 2px solid #666b6f;
+
+}
+
+.overview h2 {
+    font-size: 64px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #1BBF00;
+    text-align: center;
+
+}
+
+.overview h5 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* ------------------overview part end---------------- */
+/* ------------------choose part start---------------- */
+.choose {
+    background: #EDE6F7;
+    padding: 100px 0;
+}
+
+.choose .col-lg-5 p {
+    width: 390px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.choose .button a:hover{
+    color: #726E9E;
+    border: #726E9E solid 1px;
+
+}
+
+/* ------------------choose part end---------------- */
