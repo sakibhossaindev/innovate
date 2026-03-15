@@ -110,7 +110,8 @@ p {
 /* ------------------banner part end---------------- */
 /* ------------------overview part start---------------- */
 .overview {
-    background: #EDE6F7;
+    background: #e8dcfa;
+
 }
 
 .overview .box {
@@ -180,8 +181,28 @@ p {
 /* ------------------overview part end---------------- */
 /* ------------------choose part start---------------- */
 .choose {
-    background: #EDE6F7;
+    background: #e8dcfa;
     padding: 100px 0;
+}
+
+.choose .text .card-1 {
+    display: flex;
+    padding: 42px 140px 42px 28px;
+    transition: .4s;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+
+.choose .text .card-1 img {
+    width: 38px;
+
+}
+
+.choose .text .card-1 p {
+    width: 320px;
+    padding-left: 37px;
 }
 
 .choose .col-lg-5 p {
@@ -190,7 +211,7 @@ p {
     padding-bottom: 40px;
 }
 
-.choose .button a:hover{
+.choose .button a:hover {
     color: #726E9E;
     border: #726E9E solid 1px;
 
